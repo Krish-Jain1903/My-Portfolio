@@ -52,7 +52,6 @@ const About: React.FC = () => {
                 alt="Krish Jain"
                 className="w-full h-90 object-cover"
               />
-              <img src="" />
             </div>
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-radial from-primary-600/90 to-primary-900/90 text-white px-6 py-4">
               <h3 className="font-heading font-semibold text-xl mb-1">
