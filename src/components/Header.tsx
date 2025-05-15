@@ -93,19 +93,6 @@ const Header: React.FC<HeaderProps> = ({
         {/* Mobile Navigation Button */}
         <div className="flex items-center gap-2 md:hidden">
           <button
-            onClick={toggleDarkMode}
-            className="p-2 rounded-full hover:bg-secondary-100 dark:hover:bg-secondary-800 transition-colors"
-            aria-label={
-              isDarkMode ? "Switch to light mode" : "Switch to dark mode"
-            }
-          >
-            {isDarkMode ? (
-              <Sun size={20} className="text-primary-400" />
-            ) : (
-              <Moon size={20} className="text-primary-600" />
-            )}
-          </button>
-          <button
             onClick={toggleMenu}
             className="p-2 rounded-full hover:bg-secondary-100 dark:hover:bg-secondary-800 transition-colors"
             aria-label="Toggle menu"
@@ -129,7 +116,7 @@ const Header: React.FC<HeaderProps> = ({
         }`}
         style={{ top: "60px" }}
       >
-        <nav className="container mx-auto px-4 py-6">
+        <nav className="container mx-auto px-4 py-6 bg-white">
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>

@@ -182,7 +182,7 @@ const Education: React.FC = () => {
 
                 {/* Center dot */}
                 <div
-                  className={`absolute z-10 w-5 h-5 rounded-full bg-white dark:bg-secondary-800 border-4 ${getColor(
+                  className={`hidden md:block absolute z-10 w-5 h-5 rounded-full bg-white dark:bg-secondary-800 border-4 ${getColor(
                     item.type
                   )} left-1/2 transform -translate-x-1/2`}
                 ></div>
