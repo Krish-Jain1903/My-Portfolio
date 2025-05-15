@@ -116,7 +116,7 @@ const Header: React.FC<HeaderProps> = ({
         }`}
         style={{ top: "60px" }}
       >
-        <nav className="container mx-auto px-4 py-6">
+        <nav className="container mx-auto px-4 py-6 bg-black">
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>
