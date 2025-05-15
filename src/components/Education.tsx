@@ -114,7 +114,10 @@ const Education: React.FC = () => {
   return (
     <section id="education" className="py-20">
       <div className="container mx-auto px-4">
-        <SectionHeading title="Education & Experience" subtitle="My Journey" />
+        <SectionHeading
+          title="Education Experience & Certifications"
+          subtitle="My Journey"
+        />
 
         <div className="flex justify-center mt-8 mb-12">
           <div className="inline-flex rounded-full bg-secondary-100 dark:bg-secondary-800 p-1">

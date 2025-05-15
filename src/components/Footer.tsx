@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-secondary-800 mt-10 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-secondary-400 text-sm">
-              &copy; {currentYear} John Doe. All rights reserved.
+              &copy; {currentYear} Krish Jain. All rights reserved.
             </p>
             <p className="text-secondary-400 text-sm flex items-center mt-2 md:mt-0">
               Made with <Heart size={16} className="mx-1 text-red-500" /> by
