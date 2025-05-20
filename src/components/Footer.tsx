@@ -94,15 +94,6 @@ const Footer: React.FC = () => {
                 >
                   <Linkedin size={20} />
                 </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 rounded-full bg-secondary-800 hover:bg-primary-600 transition-colors"
-                  aria-label="Twitter"
-                >
-                  <Twitter size={20} />
-                </a>
               </div>
             </div>
           </div>
