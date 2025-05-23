@@ -57,7 +57,7 @@ const About: React.FC = () => {
               <h3 className="font-heading font-semibold text-xl mb-1">
                 Krish Jain
               </h3>
-              <p className="opacity-90 text-sm">Software Engineer</p>
+              <p className="opacity-90 text-sm">Software Developer</p>
             </div>
           </motion.div>
 

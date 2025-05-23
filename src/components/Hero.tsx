@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           className="order-2 md:order-1"
         >
           <span className="inline-block text-primary-600 dark:text-primary-400 font-medium bg-primary-50 dark:bg-primary-900/30 px-4 py-2 rounded-full mb-4">
-            Software Engineer
+            Software Developer
           </span>
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Hi, I'm{" "}
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-secondary-700 dark:text-secondary-300 mb-8 max-w-lg">
-            A passionate software engineer specializing in full-stack
+            A passionate Software Developer specializing in full-stack
             development with expertise in React.js and Laravel.
             <span className="inline-block ml-1 text-primary-600 dark:text-primary-400 font-semibold">
               #OPENTOWORK

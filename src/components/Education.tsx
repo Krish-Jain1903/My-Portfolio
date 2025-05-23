@@ -13,11 +13,11 @@ const Education: React.FC = () => {
   const timelineItems = [
     {
       type: "work",
-      title: "Software Engineer",
+      title: "Software Developer",
       organization: "Fyntune Solution Limited, Thurbhe",
       duration: "May 2024 - Present",
       description:
-        "Working as a Software Engineer, contributing to various projects and applying full-stack development skills.",
+        "Working as a Software Developer, contributing to various projects and applying full-stack development skills.",
     },
     {
       type: "education",
