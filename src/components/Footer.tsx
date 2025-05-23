@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
               <h3 className="font-semibold text-lg mb-4">Connect With Me</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Krish-Jain1903"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-secondary-800 hover:bg-primary-600 transition-colors"
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                   <GitHub size={20} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/krish-jain-470a73238/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-secondary-800 hover:bg-primary-600 transition-colors"
