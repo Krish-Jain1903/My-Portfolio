@@ -77,6 +77,18 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/Krish-Jain1903/Movie-Management",
       category: "react",
     },
+    {
+      id: 5,
+      title: "React Pizzeria",
+      description:
+        "A pizza shop where users can order pizzas from wide range of menu, they can add pizzas to cart and place the order they can track there order and even update it.",
+      image:
+        "https://images.scalebranding.com/pizza-slice-logo-bf9eb7b1-2de9-4591-8041-5258270b223b.jpg",
+      tags: ["React", "Redux", "Tailwind"],
+      liveUrl: "",
+      githubUrl: "https://github.com/Krish-Jain1903/React-Pizzeria",
+      category: "react",
+    },
   ];
 
   const filteredProjects =
